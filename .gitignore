@@ -1,0 +1,6 @@
+out/
+obj/
+backup/
+*.zip
+*.o
+*.c
