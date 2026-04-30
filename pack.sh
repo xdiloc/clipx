@@ -19,7 +19,7 @@ fi
 
 # Архивация: вся папка src, Makefile и сам скрипт
 # Выводит список файлов по мере добавления
-zip -r "$ARCHIVE_NAME" src/ Makefile pack.sh
+zip -r "$ARCHIVE_NAME" src/ Makefile pack.sh README.md LICENSE release.sh
 
 echo "-------------------------------------------"
 echo "Архив создан: $ARCHIVE_NAME"
